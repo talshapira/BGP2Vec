@@ -18,6 +18,11 @@ Then, for each task; AS classification or ToR classification task, we activate A
 
 <img src='http://talshapira.github.io/files/BGP2VEC_sys_0.png'>
 
+## Code & Dataset
+
+* bgp2vec.py + oix_utils.py --> please use these files to train the BGP2Vec model. For this end you will have to download an oix file from http://archive.routeviews.org/oix-route-views/
+* CAIDA....ipynb --> use this to train neural network for ToR predictions - for this you need to download the CAIDA as relationships data from https://publicdata.caida.org/datasets/as-relationships/
+
 ## Publications
 
 * Tal Shapira and Yuval Shavitt. 2020. A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding. In Proceedings of the Workshop on Network Meets AI & ML (NetAI ’20). Association for Computing Machinery, New York, NY, USA, 35–41. [Download paper here](https://dl.acm.org/doi/abs/10.1145/3405671.3405814)
