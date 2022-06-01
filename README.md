@@ -18,6 +18,7 @@ Then, for each task; AS classification or ToR classification task, we activate A
 
 <img src='http://talshapira.github.io/files/BGP2VEC_sys_0.png'>
 
+
 ## Code & Dataset
 
 * bgp2vec.py + oix_utils.py --> please use these files to train the BGP2Vec model. For this end you will have to download an oix file from http://archive.routeviews.org/oix-route-views/
@@ -25,5 +26,14 @@ Then, for each task; AS classification or ToR classification task, we activate A
 
 ## Publications
 
-* Tal Shapira and Yuval Shavitt. 2020. A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding. In Proceedings of the Workshop on Network Meets AI & ML (NetAI ’20). Association for Computing Machinery, New York, NY, USA, 35–41. [Download paper here](https://dl.acm.org/doi/abs/10.1145/3405671.3405814)
+* T. Shapira and Y. Shavitt, "BGP2Vec: Unveiling the Latent Characteristics of Autonomous Systems," in IEEE Transactions on Network and Service Management, 2022, doi: 10.1109/TNSM.2022.3169638. [Download paper here](https://ieeexplore.ieee.org/document/9761992)
+* T. Shapira and Y. Shavitt. 2020. A Deep Learning Approach for IP Hijack Detection Based on ASN Embedding. In Proceedings of the Workshop on Network Meets AI & ML (NetAI ’20). Association for Computing Machinery, New York, NY, USA, 35–41. [Download paper here](https://dl.acm.org/doi/abs/10.1145/3405671.3405814)
 * T. Shapira and Y. Shavitt, "Unveiling the Type of Relationship Between Autonomous Systems Using Deep Learning," NOMS 2020 - 2020 IEEE/IFIP Network Operations and Management Symposium, 2020, pp. 1-6, doi: 10.1109/NOMS47738.2020.9110358. [Download paper here](https://ieeexplore.ieee.org/document/9110358)
+
+# Check our new paper
+
+AP2Vec: an Unsupervised Approach for BGP Hijacking Detection
+
+In this paper, we extend the work done in BGP2Vec and introduce a novel approach for BGP hijacking detection that is based on the observation that during a hijack attack, the functional roles of ASNs along the route change. To identify a functional change, we build on previous work that embeds ASNs to vectors based on BGP routing announcements and embed each IP address prefix (AP) to a vector representing its latent characteristics, we call it AP2Vec. Then, we compare the embedding of a new route with the AP embedding that is based on the old routes to identify large differences.
+
+* T. Shapira and Y. Shavitt, "AP2Vec: an Unsupervised Approach for BGP Hijacking Detection," in IEEE Transactions on Network and Service Management, doi: 10.1109/TNSM.2022.3166450. [Download paper here](https://ieeexplore.ieee.org/document/9754706)
