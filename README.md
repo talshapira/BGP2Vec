@@ -18,6 +18,23 @@ Then, for each task; AS classification or ToR classification task, we activate A
 
 <img src='http://talshapira.github.io/files/BGP2VEC_sys_0.png'>
 
+## Exploration of ASN Embedding
+
+BGP announcements hold latent information about the Internet Autonomous Systems (ASes) and their functional position within the Internet eco-system. This information can aid us in understanding the Internet structure and also in solving many practical problems. BGP2Vec,is a novel approach to revealing the latent characteristics of ASes using neural-network-based embedding. We show that our embedding indeed captures important characteristics of ASes, such as: distance from Tier-1, business type of AS, ToR, geographical similarity, etc.
+
+<p align="center">
+<img src='http://talshapira.github.io/files/BGP2Vec_Analysis_all_graph_by_region_1.png' width="400">
+</p>
+
+
+<p align="center">
+<img src='http://talshapira.github.io/files/bgp2vec_equinix_vectors.png' width="400">
+</p>
+
+
+<p align="center">
+<img src='http://talshapira.github.io/files/bgp2vec_siblings_analogies.png' width="400">
+</p>
 
 ## Code & Dataset
 
