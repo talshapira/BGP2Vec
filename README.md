@@ -39,7 +39,8 @@ BGP announcements hold latent information about the Internet Autonomous Systems 
 ## Code & Dataset
 
 * bgp2vec.py + oix_utils.py --> please use these files to train the BGP2Vec model. For this end you will have to download an oix file from http://archive.routeviews.org/oix-route-views/
-* CAIDA....ipynb --> use this to train neural network for ToR predictions - for this you need to download the CAIDA as relationships data from https://publicdata.caida.org/datasets/as-relationships/
+* Generate_ToR_Dataset.ipynb - use this to convert the [CAIDA dataset](https://publicdata.caida.org/datasets/as-relationships/) to np arrays. Please be aware that there could be ASNs that are presented in the CAIDA dataset but not in [RouteView](http://archive.routeviews.org/oix-route-views/). So you have to find these ToRs and remove them for the next step.
+* CAIDA....ipynb --> use this to train a neural network for ToR predictions - for this you need to download the CAIDA as relationships data from https://publicdata.caida.org/datasets/as-relationships/
 
 ## Publications
 
